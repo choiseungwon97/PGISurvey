@@ -1,0 +1,397 @@
+/* 타이틀 */
+.title {
+background : url(../images/contents/title_bu.gif) no-repeat left center; 
+width : 400px; 
+height : 46px;
+color : #333333;
+font-size : 16px;
+font-weight : bold; 
+padding : 0 0 0 20px;
+}
+.title_pos {
+width : 370px; 
+color : #a0a0a0;
+font-size : 11px;
+letter-spacing : -1px;
+text-align : right;
+}
+
+/* 테이블 */
+.blue_2px {
+width : 770px;
+height : 2px;
+background-color : #2878be;
+}
+.v_1px {
+width : 1px;
+background-color : #dadada;
+}
+.h_1px {
+height : 1px;
+background-color : #dadada;
+}
+.text_sub {
+color : #2878be;
+background-color : #f7f7f7;
+text-align : center; 
+padding : 7px 0 4px 0;
+}
+.min_sub {
+color : #2878be;
+background-color : #f7f7f7;
+text-align : center; 
+padding : 2px 0 1px 0;
+}
+.min_sub2 {
+color : #2878be;
+background-color : #f7f7f7;
+text-align : center; 
+padding : 4px 2px 3px 2px;
+}
+.text {
+color : #656565;
+text-align : center;
+background-color : #ffffff;
+padding : 7px 0 4px 0;
+}
+.text_link {
+color : #656565;
+background-color : #ffffff;
+padding : 7px 10px 4px 15px;
+}
+.text_view {
+color : #656565;
+background-color : #ffffff;
+padding : 7px 10px 4px 10px;
+}
+
+/* 검색 및 버튼*/
+.search_td {
+width : 260px;
+text-align : center;
+padding : 20px 0 15px 0;
+}
+.select.search_sel {
+font-size : 11px; 
+height : 21px;
+color : #787878;  
+vertical-align : middle; 
+}
+input.search_form { 
+width : 130px;
+height : 21px; 
+background-color : #ffffff;
+border-color : #c9c9c9; 
+border-style : solid;
+border-width : 1px;
+color : #787878;
+font-size : 11px; 
+padding-left : 4px; 
+vertical-align : middle; 
+}
+.btn_l {
+width : 255px;
+text-align : right;
+padding : 20px 0 15px 4px;
+}
+.btn_r {
+width : 255px;
+text-align : right;
+padding : 20px 4px 15px 0;
+}
+.btn {
+width : 770px;
+text-align : right;
+padding : 20px 4px 15px 0;
+}
+.btn_sub {
+width : 770px;
+text-align : right;
+padding : 10px 4px 15px 0;
+}
+
+/* 입력 */
+.write_td {
+background-color : #ffffff;
+padding : 7px 10px 7px 10px;
+}
+.write_file {
+background-color : #ffffff;
+padding : 7px 0 7px 10px;
+}
+input.write_form { 
+height : 21px; 
+background-color : #ffffff;
+border-color : #dadada; 
+border-style : solid;
+border-width : 1px;
+color : #656565; 
+padding-left : 5px; 
+padding-top : 4px;  
+vertical-align : middle; 
+}
+textarea.write_area {
+vertical-align : top; 
+background-color : #ffffff;
+border : #dadada 1px solid;
+overflow : auto; 
+color : #656565; 
+padding : 6px; 
+vertical-align : middle; 
+}
+
+/* 파일첨부 */
+.fakeFileTxt { 
+float : left; 
+height : 21px; 
+background-color : #ffffff;
+border-color : #dadada; 
+border-style : solid;
+border-width : 1px;
+color : #656565; 
+padding-left : 5px; 
+padding-top : 4px;  
+vertical-align : middle; 
+}
+.fileDiv {
+position: relative;
+/*버튼이미지 크기에 따라서 width, height 수정*/
+width : 58px;
+height : 21px;
+/*버튼이미지 크기에 따라서 width, height 수정*/
+overflow : hidden;
+}
+.buttonImg {
+background : url(../images/contents/btn_file.gif);
+/*버튼이미지 크기에 따라서 width, height 수정*/
+width : 58px;
+height : 27px;
+/*버튼이미지 크기에 따라서 width, height 수정*/
+position : absolute;
+top : -3px;
+color : #FFFFFF;
+border-style : solid;
+}
+.realFile { 
+position: absolute;
+right : 0px;
+top : -5px;
+height : 30px;
+opacity : 0;
+filter : alpha(opacity=0);
+-ms-filter : "alpha(opacity=0)";
+-khtml-opacity : 0;
+-moz-opacity : 0;
+cursor : pointer;
+}
+
+/* 페이지 */
+.page_no {
+color : #333333; 
+text-align : center; 
+font-weight : bold; 
+padding : 15px 0 15px 0;
+}
+.page_on {
+color : #f00909; 
+}
+a.page_no:link,a.page_no:visited,a.page_no:active {
+color : #454545; 
+text-decoration : none 
+}
+a.page_no:hover {
+color : #05489f;
+text-decoration : underline 
+}
+
+/* 탭메뉴 */
+.tab_on {
+background : url(../images/contents/tab_on.gif) ; 
+height : 33px;
+color : #333333;
+font-weight : bold; 
+text-align : center;
+padding : 4px 0 0 0;
+}
+.tab_off {
+background : url(../images/contents/tab_off.gif) ; 
+height : 33px;
+color : #777777;
+font-weight : bold; 
+text-align : center;
+cursor : pointer;
+padding : 4px 0 0 0;
+}
+.tab_1px {
+width : 1px;
+background-color : #d6d6d6;
+}
+a.tab_m:link,a.tab_m:visited,a.tab_m:active {
+color : #777777; 
+text-decoration : none 
+}
+a.tab_m:hover {
+color : #333333;
+text-decoration : underline 
+}
+
+/* 시료검색 박스 */
+.box_td {
+height : 37px;
+background-color : #f9f9f9;
+padding : 2px 11px 0 11px;
+}
+.box_text {
+background : url(../images/contents/icon_point.gif) no-repeat left center; 
+width : 50%;
+color : #787878;
+letter-spacing : -1px;
+padding : 2px 0 0 20px;
+}
+.box_text_line {
+color : #dedddd;
+}
+.box_text_r {
+color : #ff5a00;
+font-weight : bold; 
+}
+.box_text_b {
+color : #00528b;
+font-weight : bold; 
+}
+.box_btn {
+width : 50%;
+text-align : right;
+padding : 0 0 2px 0;
+}
+
+/* 업무처리 */
+.blue_bu {
+background : url(../images/contents/blue_bu.gif) no-repeat left center; 
+width : 770px;
+height : 43px;
+color : #00528b;
+font-weight : bold; 
+padding : 12px 0 0 18px;
+}
+.blue_bu1 {
+background : url(../images/contents/blue_bu1.gif) no-repeat left center; 
+width : 720px;
+height : 15px;
+color : #6c6c6c;
+font-weight : bold; 
+padding : 10px 0 0 18px;
+}
+.no_text {
+color : #656565;
+text-align : center;
+background-color : #ffffff;
+padding : 4px 0 3px 0;
+}
+.min_text {
+color : #656565;
+text-align : center;
+background-color : #ffffff;
+padding : 2px 0 1px 0;
+}
+.min_text2 {
+color : #656565;
+text-align : center;
+background-color : #ffffff;
+padding : 2px 2px 1px 2px;
+}
+.mi_text {
+color : #656565;
+background-color : #ffffff;
+padding : 2px 0 1px 2px;
+}
+.mi_text2 {
+color : #656565;
+background-color : #ffffff;
+padding : 4px 0 3px 3px;
+}
+.no_blue {
+color : #2165a1;
+text-align : center;
+background-color : #ffffff;
+padding : 2px 0 5px 0;
+}
+a.no_link:link,a.no_link:visited,a.no_link:active {
+color : #2165a1;
+background-color : #ffffff;
+font-family : Verdana,dotum,돋움; 
+font-size : 11px;
+text-decoration : none 
+}
+a.no_link:hover {
+color : #2165a1;
+background-color : #ffffff;
+font-family : Verdana,dotum,돋움; 
+font-size : 11px;
+text-decoration : underline 
+}
+.dot_line {
+background : url(../images/contents/dot_line.gif) ; 
+width : 770px;
+height : 1px;
+}
+.select.all_sel {
+height : 21px;
+vertical-align : middle; 
+}
+.no_text_r {
+color : #656565;
+text-align : right;
+padding : 4px 15px 3px 0;
+}
+.no_text_sub {
+color : #2878be;
+background-color : #f7f7f7;
+text-align : right;
+padding : 7px 15px 4px 0;
+}
+
+
+/* 2011.12.20추가 */
+.green_2px {
+width : 770px;
+height : 2px;
+background-color : #5aa715;
+}
+.red_2px {
+width : 770px;
+height : 2px;
+background-color : #df7236;
+}
+.text_sub1 {
+color : #397702;
+background-color : #f7f7f7;
+text-align : center; 
+padding : 7px 0 4px 0;
+}
+.text_sub2 {
+color : #c65a20;
+background-color : #f7f7f7;
+text-align : center; 
+padding : 7px 0 4px 0;
+}
+
+a.m_a3:link { font-family:돋움, seoul, arial, helvetica; font-weight : bold; font-size: 11px; color:#e34b09; text-decoration: none }
+a.m_a3:visited { font-family:돋움, seoul, arial, helvetica; font-weight : bold; font-size: 11px; color:#e34b09; text-decoration: none }
+a.m_a3:active { font-family:돋움, seoul, arial, helvetica; font-weight : bold; font-size: 11px; color:#615844; text-decoration: none }
+a.m_a3:hover { font-family:돋움, seoul, arial, helvetica; font-weight : bold; font-size: 11px; color:#F07806; text-decoration: underline }
+
+a.tapmenu_off:link { font-family:돋움; font-size: 12px; font-weight: bold; color:#585858; letter-spacing: -1px; text-decoration: none }
+a.tapmenu_off:visited { font-family:돋움; font-size: 12px; font-weight: bold; color:#585858; letter-spacing: -1px; text-decoration: none }
+a.tapmenu_off:active { font-family:돋움; font-size: 12px; font-weight: bold; color:#6692c0; letter-spacing: -1px; text-decoration: none }
+a.tapmenu_off:hover { font-family:돋움; font-size: 12px; font-weight: bold; color:#1e5fa5; letter-spacing: text-decoration: underline }
+
+.s_b_on { font-family:돋움; font-size: 12px; font-weight: bold; color:#ffffff; letter-spacing: -1px;}
+
+.m_a2 {
+font-size: 8pt;
+font-family: "돋움";
+font-weight: bold;
+letter-spacing: -1px;
+color: #656565;}
+

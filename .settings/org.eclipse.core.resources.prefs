@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//WebContent/admin.jsp=UTF-8
+encoding//src/com/survey/controller/ActionFactory.java=UTF-8
+encoding//src/com/survey/controller/MemberServlet.java=UTF-8
+encoding//src/com/survey/controller/OccupationServlet.java=UTF-8
+encoding//src/com/survey/controller/action/LoginAction.java=UTF-8
+encoding//src/com/survey/controller/action/OccupationWriteFormAction.java=UTF-8
+encoding/<project>=UTF-8

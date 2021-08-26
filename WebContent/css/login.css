@@ -1,0 +1,67 @@
+.login_bg {
+background : url(../images/login/bg.gif) center; 
+width : 100%; 
+height : 910px;
+vertical-align : top; 
+padding : 190px 0 0 0;
+}
+.login_box {
+background : url(../images/login/box_back.gif) no-repeat center; 
+width : 900px; 
+height : 420px;
+vertical-align : top; 
+padding : 156px 150px 0 366px;
+}
+.login_img {
+width : 63px;
+padding : 0 4px 2px 0;
+}
+.login_td {
+width : 300px;
+padding : 0 0 6px 0;
+}
+input.login_form { 
+font-family : Verdana,µ¸¿ò; 
+width : 220px;
+height : 26px; 
+background-color : #eeeeee;
+border-color : #dfdfdf; 
+border-style : solid;
+border-width : 1px;
+color : #333333;
+font-size : 12px; 
+font-weight : bold; 
+padding-left : 0px; 
+padding-top : 3px;  
+vertical-align : middle; 
+}
+.login_text {
+height : 44px;
+font-size : 11px; 
+letter-spacing : -1px; 
+color : #656565; 
+vertical-align : middle; 
+padding : 0 0 0 63px;
+}
+input.login_check {
+width : 13px;
+height : 13px;
+vertical-align : middle;
+}
+input.login_submit {
+width : 90px;
+height : 59px;
+vertical-align : middle;
+}
+input.rg_submit {
+width : 90px;
+height : 30px;
+border:1px solid #999;
+cursor: pointer;
+vertical-align : middle;
+}
+.login_emer {
+height : 45px;
+vertical-align : bottom; 
+padding : 0 0 0 63px;
+}

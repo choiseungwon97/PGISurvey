@@ -1,0 +1,13 @@
+.afjs_required  { background:#FFFFDF; background-image : url(/rtr/jsp/kins/rtr/script/required.gif); background-position:top right; background-repeat:no-repeat;}
+
+.afjs_no_scroll  { overflow:hidden }
+.afjs_imeKor     { ime-mode:active }
+.afjs_imeEng     { ime-mode:inactive }
+.afjs_imeDis     { ime-mode:disabled }
+
+.afjs_handOn     { cursor:hand }
+
+.afjs_word_break     { word-break:break-all; }
+
+
+

@@ -1,0 +1,177 @@
+/* 일반 */
+body,td,th { margin: 0px; font-family:"굴림, 굴림체"; font-size: 12px; color: #555555; line-height: 150%; }
+
+.lListTitle {color: #315D90; }
+
+.sechText { color: #669900;	font-weight: bold; }
+.sechText02 { color: #21859F;	font-weight: bold; }
+.sechResult {color: #FF7733}
+
+.wResult { color:#ff6600; }
+.wText { padding:0 0 0 10; color:#333333; }
+
+.sMTitle { font-size: 13px;padding:18 0 0 37; color: #ffffff; font-weight: bold;}
+.b11 { font-size: 11px; font-weight: bold; }
+.b11Add { font-size: 11px; font-weight: bold; padding:2 0 0 0; cursor:hand;}
+.btText { padding:2 6 0 6; color: #ffffff; font-weight: bold;	cursor: hand;}
+
+.cboxSechText { padding: 0 10 0 5; font-weight:bold; }
+
+.rText { color: #315d90; font-size: 12px; }
+.dTextb { color: #5482AE; font-size: 11px; font-weight:bold; }
+
+.tabMText01 { color: #ffffff; font-size: 12px; font-weight:bold; padding:7 10 0 10; cursor:hand;}
+.tabMText02 { color: #54595B; font-size: 12px; font-weight:bold; padding:7 10 0 10; cursor:hand;}
+.tabMText03 { color: #315D90; font-size: 12px; font-weight:bold; padding:7 10 0 10; cursor:hand;}
+
+
+.winTitle01 { color:#D8FF00; font-size:15px; font-weight:bold;padding:0 0 0 0 }
+.winTitle02 { color:#ffffff; font-size:15px; font-weight:bold;padding:0 0 0 0 }
+
+.btList { color:#546D87; padding:1 0 0 0; cursor:hand; }
+
+.errorTitle { font-size:14px; color:#FFFFFF ; font-weight:bold; }
+
+
+/* 1xla관련 */
+.tabMText01_1 { color: #ffffff; font-size: 12px; font-weight:bold; padding:7 10 0 10; cursor:hand;}
+.tabMText02_1 { color: #54595B; font-size: 12px; font-weight:bold; padding:7 10 0 10; cursor:hand;}
+
+
+/* 링크 관련 */
+a.nLink:active, a.nLink:link, a.nLink:visited { padding:0 12 0 12; font-weight:bold; color:#ffffff; text-decoration:none; }
+a.nLink:hover { padding:0 12 0 12; font-weight:bold; color:#ffffff }
+
+a.lLink:active, a.lLink:link, a.lLink:visited { font-size: 12px; color: #315d90; text-decoration:none; }
+a.lLink:hover { font-size: 12px; color: #FF6600; }
+
+
+/* 메인메뉴관련 */
+a.menu_on:visited {font-size: 12px; padding:0 12 0 12; line-height: 14px;  color: #FFFFFF;  text-decoration: none;font-weight:bold;}
+a.menu_on:hover   {font-size: 12px; padding:0 12 0 12; line-height: 14px;  color: #CCFF00;  text-decoration: none;font-weight:bold;}
+a.menu_on:link    {font-size: 12px; padding:0 12 0 12; line-height: 14px;  color: #FFFFFF;  text-decoration: none;font-weight:bold;}
+
+.menu_off {font-size: 12px; padding:0 12 0 12; line-height: 14px;  color: #57A1D7;  text-decoration: none;font-weight:bold;}
+
+a.pList:active, a.pList:link, a.pList:visited { font-size: 12px; color:#555555; text-decoration:none;}
+a.pList:hover { font-size: 12px; color: #555555; }
+
+a.pListOver:active, a.pListOver:link, a.pListOver:visited { font-size: 12px; color: #FF6600; text-decoration:none; font-weight:bold; }
+a.pListOver:hover { font-size: 12px; color: #FF6600; }
+
+a.s1Menu:active, a.s1Menu:link, a.s1Menu:visited { font-size: 12px; color: #000000; text-decoration:none;  }
+a.s1Menu:hover { font-size: 12px; color: #ff6600; }
+a.s1MenuOver:active, a.s1MenuOver:link, a.s1MenuOver:visited { font-size: 12px; color: #333333; text-decoration:none; font-weight:bold; }
+a.s1MenuOver:hover { font-size: 12px; color: #000000; text-decoration:none; font-weight:bold; }
+
+a.s2Menu:active, a.s2Menu:link, a.s2Menu:visited { font-size: 12px; color: #555555; text-decoration:none;  }
+a.s2Menu:hover { font-size: 12px; color: #ff6600; }
+a.s2MenuOver:active, a.s2MenuOver:link, a.s2MenuOver:visited { font-size: 12px; color: #ff6600; text-decoration:none; font-weight:bold; }
+a.s2MenuOver:hover { font-size: 12px; color: #ff6600; text-decoration:none; font-weight:bold; }
+
+a.ctSchOver01:active, a.ctSchOver01:link, a.ctSchOver01:visited { font-size: 12px; color: #21859F; text-decoration:none; }
+a.ctSchOver01:hover { font-size: 12px; color: #21859F; text-decoration:none; }
+
+a.ctSchOver02:active, a.ctSchOver02:link, a.ctSchOver02:visited { font-size: 12px; color: #000000; text-decoration:none; }
+a.ctSchOver02:hover { font-size: 12px; color: #000000; text-decoration:none; }
+
+
+/* 달력 & 조회창 관련 */
+.calDate { font-size:11px; font-family:Verdana ; padding:2 5 2 5; cursor:hand; }
+.calToday { font-size:11px; font-weight:bold; color:#ff7733; font-family:Verdana ; padding:2 5 2 5; cursor:hand; }
+.calSelect {font-size:11px; font-family:verdana; font-weight:bold; background-color:#F1EDE1; }
+#cal {position:absolute;left:837px;top:265px;width:154px;height:147px;z-index:1;visibility: hidden;}
+
+.winTitle { font-size:14px; color:#21859F ; font-weight:bold; }
+
+/* 폼문 관련 */
+.input { border:solid 1px #93A9D5; font-size:12px; color:#333333; }
+.input_white { border:solid 1px #ffffff; font-size:12px; color:#333333; }
+.ipUnder { border:solid 1px; font-size:12px; color:#546D87; border-top-color: #FFFFFF; border-right-color: #FFFFFF; border-bottom-color: #999999; border-left-color: #FFFFFF; padding:3 0 0 2; background:#FAFAFA;}
+.dIp { border:solid 1px #93A9D5; font-size:12px; color:#333333; background-color:#D1D4D9; }
+select { border: solid 1px #CCCCCC ; font-size:12px; color:#333333; }
+.textUnder { border : solid 1px; font-size:12px; color:#FF7733; border-top-color: #FFFFFF; border-right-color: #FFFFFF; border-bottom-color: #999999; border-left-color: #FFFFFF; padding:3 0 0 2; background:#FAFAFA;}
+
+
+/* table, tr, td 배경색 관련 */
+
+.bgWhite { background-color:#FFFFFF; } /* 흰색 배경 일반 */
+.bgCLine { background-color:#DBE3EF; } /* 등록화면 & 등록창 [ 수정포함 ] 테이블 라인색 */
+.bgCTd { background-color:#F0F4FA; } /* 등록화면 & 등록창 [수정포함] 페이블 배경색 */
+.bgCALine { background-color:#8CB5DC; } /* 등록화면 & 등록창 [ 수정포함 ] 항목추가 테이블 라인색 */
+.bgCATd { background-color:#CAE2F9; } /* 등록화면 & 등록창 [ 수정포함 ] 항목추가 테이블 배경색 */
+.bgPCLine { background-color:#DEDEDE; } /* 페이지 리스트 일반 라인색 */
+.bgPTLine { background-color:#315D90; } /* 페이지 리스트 탑 라인색 */
+.bgPTLine02 { background-color:#666666; } /* 페이지 리스트 탑 라인색02 */
+.bgPTd { background-color:#F5F2E4; } /* 페이지 리스트 탑 배경색 */
+.bgGray { background-color:#F3F3F3; } /* 회색 배경 일반 */
+.bgSTd { background-color:#EDE8DA;} /* 카테고리 리스트 검색 박스 배경색 */
+.bgCbox01 { background-color:#CCCCCC;} /* 테두리 박스01 배경색 */
+.bgCbox02 { background-color:#EDE8DA;} /* 테두리 박스02 배경색 */
+.bgWin { background-color:#21859F; } /* 검색관련 새창 박스&라인 배경색 01 */
+.bgError { background-color:#006699; } /* 시스템오류 관련 타이틀 배경색 */
+.bgMeminfo { background-color:#669900; } /* 비밀번호변경 배경색 */
+.winBg01 { background-color:#86B0D5; }
+.winBg02 { background-color:#86B0D5; }
+.winBg03 { background:url("/images/common/win_bg.gif"); }
+
+
+/* 로그인 페이지 관련 */
+
+.logInput { border:solid 1px #BAD6F4; font-size:12px; color:#315D90; width:110px; height:19px; padding:3 0 0 3;}
+
+/* 카테고리 여백 관련 */
+.d2 { padding:0 0 0 10; }
+.d3 { padding:0 0 0 20; }
+.d4 { padding:0 0 0 30; }
+.d5 { padding:0 0 0 40; }
+
+/* Display 부분 - 1팀 추가    */
+/* 입력Head     */  .inputhead { height=25; background-color:#F0F4FA; color: #315d90; font-size: 12px; }
+/* 입력data     */  .inputdata { background-color:#FFFFFF; }
+
+/* Line        */  .line     { height=1; background-color:#DEDEDE; white-space:nowrap; }
+/* Line        */  .boldline { height=2; background-color:#315D90; white-space:nowrap; }
+
+/* 조회 table   */  .readtable { background-color:#F4F4F4; }
+/* 조회 line    */  .readline  { background-color:#DEDEDE; text-align:center;}
+
+/* 자료Head     */ .listhead  { padding:4 4 4 4; text-align:center; font-weight:bold; background-color:#F3F3F3;  color:#315D90;  }
+ 
+/* 자료         */ .listdataL   { text-align:left;   padding:4 4 4 4; background-color:#FFFFFF; }
+/* 자료         */ .listdataC   { text-align:center; padding:4 4 4 4; background-color:#FFFFFF; }
+/* 자료         */ .listdataR   { text-align:right;  padding:4 4 4 4; background-color:#FFFFFF; }
+              .readonly  { BACKGROUND-COLOR: #FFFFCC;}
+
+/* 메인화면관련 */
+
+a.left_txt_01:visited {font-size: 11px;  line-height: 14px;  color: #000000;  text-decoration: none;font-family:"돋움";}
+a.left_txt_01:hover   {font-size: 11px;  line-height: 14px;  color: #FF6600;  text-decoration: none;font-family:"돋움";}
+a.left_txt_01:link    {font-size: 11px;  line-height: 14px;  color: #000000;  text-decoration: none;font-family:"돋움";}
+
+.left_txt_02 {font-size: 11px;  color : #006ABF; font-family:"돋움"; line-height:18px;font-weight: bold;}
+.left_txt_03 {font-size: 11px;  color : #000000; font-family:"돋움"; line-height:18px;}
+.left_txt_04 {font-size: 11px;  color : #000000; font-family:"돋움"; line-height:18px;font-weight: bold;}
+
+.main_input_search { border:solid 1px #0A4399; font-size:12px; color:#333333; }
+
+.main_cal_txt_01 {font-size: 14px;  color : #000000; font-family:"돋움"; line-height:18px;font-weight: bold;}
+.main_cal_txt_02 {font-size: 14px;  color : #FF6600; font-family:"돋움"; line-height:18px;font-weight: bold;}
+.main_cal_txt_03 {font-size: 12px;  color : #339999; font-family:"돋움"; line-height:18px;font-weight: bold;}
+.main_cal_txt_04 {font-size: 12px;  color : #FF6600; font-family:"돋움"; line-height:18px;font-weight: bold;}
+.main_cal_txt_05 {font-size: 12px;  color : #3D6EBF; font-family:"돋움"; line-height:18px;font-weight: bold;}
+
+/********************** 풍선 도움말 스타일 *************
+ *	border:solid 1 CC0000;  - 풍선 도움말 테두리색 
+ *	background:000000;  - 풍선도움말 바탕색 
+ *	font-size:9pt; - 풍선도움말 글자크기 
+ *	color:CORAL; - 풍선도움말 글자색 
+ *	width:300; / height:17;  - 풍선도움말의 크기 지정 
+ ******************************************************/
+
+#balloon {POSITION:absolute;VISIBILITY:hidden;Z-INDEX:200;}  
+
+
+
+/* 다국어 출력용 */ .palmanView   { margin: 0px; font-family:"팔만명조_ISO, 굴림, 굴림체"; font-size: 12px; color: #555555; line-height: 150%; }
+/* 다국어 입력용 */ .palmalInput  { border:solid 1px #93A9D5; font-family:"팔만명조_ISO, 굴림, 굴림체"; font-size:12px; color:#333333; }
